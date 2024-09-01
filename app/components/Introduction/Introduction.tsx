@@ -7,7 +7,7 @@ import { ChevronDown } from "lucide-react";
 import DarkGithub from "/public/darkmode-github.svg";
 import DarkLinkedin from "/public/darkmode-linkedin.svg";
 import { motion } from "framer-motion";
-import { fadeIn } from "../Variants/Variants";
+import { fadeIn } from "../../Variants/Variants";
 import { TypeAnimation } from "react-type-animation";
 import Link from "next/link";
 /* eslint-disable react/no-unescaped-entities */
