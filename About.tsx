@@ -7,8 +7,8 @@ import DarkGithub from "/public/darkmode-github.svg";
 import DarkLinkedin from "/public/darkmode-linkedin.svg";
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
-import { fadeIn } from "../Variants/Variants";
 import Link from "next/link";
+import { fadeIn } from './app/components/variants/Variants';
 export default function About() {
   return (
     <motion.div

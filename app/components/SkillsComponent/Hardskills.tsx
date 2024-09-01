@@ -8,7 +8,7 @@ import NextjsLogo from "/public/Nextjs.svg";
 import TailwindLogo from "/public/TailwindCSS.svg";
 import TsLogo from "/public/ts.svg";
 import { motion } from "framer-motion";
-import { fadeIn } from "../../Variants/Variants";
+import { fadeIn } from "../variants/Variants";
 
 const skillsLogo = [
   { src: HtmlLogo, name: "HTML5" },

@@ -1,7 +1,7 @@
 "use client";
 import { AppWindow, Code, TabletSmartphone } from "lucide-react";
 import { motion } from "framer-motion";
-import { fadeIn } from "../../Variants/Variants";
+import { fadeIn } from "../variants/Variants";
 
 export function Services() {
   return (

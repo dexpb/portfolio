@@ -1,4 +1,5 @@
 "use client";
+import { fadeIn } from "../variants/Variants";
 import Image from "next/image";
 import Photo from "/public/pablo-image.jpg";
 import Linkedin from "/public/linkedin-icon.svg";
@@ -7,10 +8,8 @@ import { ChevronDown } from "lucide-react";
 import DarkGithub from "/public/darkmode-github.svg";
 import DarkLinkedin from "/public/darkmode-linkedin.svg";
 import { motion } from "framer-motion";
-import { fadeIn } from "../../Variants/Variants";
 import { TypeAnimation } from "react-type-animation";
 import Link from "next/link";
-/* eslint-disable react/no-unescaped-entities */
 export default function Introduction() {
   return (
     <div className="mb-10 flex h-2/6 lg:mb-0 lg:ml-0 lg:flex-col lg:items-center lg:justify-center">
