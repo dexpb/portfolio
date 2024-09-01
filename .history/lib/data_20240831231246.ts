@@ -1,6 +1,11 @@
-import React from "react";
+type LinkType = {
+    name: string;
+    hash: string;
+    special?: boolean;
+};
 
-export const links = [
+
+export const links: LinkType[] = [
 
     {
         name: "sobre",
@@ -14,5 +19,6 @@ export const links = [
     {
         name: "contato",
         hash: "#contato",
+        special: true
     },
 ] as const;

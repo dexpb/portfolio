@@ -1,4 +1,3 @@
-import React from "react";
 type LinkType = {
     name: string;
     hash: string;
