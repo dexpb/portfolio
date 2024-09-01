@@ -1,5 +1,3 @@
-import { stagger } from "framer-motion";
-
 export const slideIn = (direction: string, delay:any) => {
     return {
       hidden: {

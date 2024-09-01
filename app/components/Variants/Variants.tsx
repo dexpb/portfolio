@@ -1,5 +1,3 @@
-import { stagger } from "framer-motion";
-
 export const fadeIn = (direction: string, delay: any) => {
     return {
       hidden: {
