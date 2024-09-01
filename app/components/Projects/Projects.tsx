@@ -4,8 +4,8 @@ import Image from "next/image";
 import Github from "/public/github-icon.svg";
 import JeffDesign from "/public/jeff-design.png";
 import { motion } from "framer-motion";
-import { fadeIn } from "../variants/Variants";
 import FswBarber from "/public/fsw-barber.png";
+import { fadeIn } from './../../Variant/Variants';
 
 export function Projects() {
   return (
