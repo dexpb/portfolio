@@ -40,31 +40,39 @@ export default function Introduction() {
             whileInView="show"
             viewport={{ once: true, amount: 0.7 }}
           >
-            <div className="m-10 flex flex-row justify-center gap-6 lg:mx-0 lg:justify-start lg:gap-10">
-              <Link
-                href="https://github.com/dexpb"
-                className="hidden transition duration-500 ease-in-out hover:scale-125 dark:block"
-              >
-                <Image src={Github} width={50} alt="Github Logo" />
+            <div className="m-10 flex flex-row justify-center items-center gap-6 lg:mx-0 lg:justify-start lg:gap-10">
+              <Link href="https://github.com/dexpb">
+                <Image
+                  src={Github}
+                  width={50}
+                  alt="Github Logo"
+                  className="hidden transition duration-500 ease-in-out hover:scale-125 dark:block"
+                />
               </Link>
 
-              <Link
-                href="https://www.linkedin.com/in/pablocorreaalmeida/"
-                className="hidden transition duration-500 ease-in-out hover:scale-125 dark:block"
-              >
-                <Image src={Linkedin} width={50} alt="Linkedin Logo" />
+              <Link href="https://www.linkedin.com/in/pablocorreaalmeida/">
+                <Image
+                  src={Linkedin}
+                  width={50}
+                  alt="Linkedin Logo"
+                  className="hidden transition duration-500 ease-in-out hover:scale-125 dark:block"
+                />
               </Link>
-              <Link
-                href="https://github.com/dexpb"
-                className="block transition duration-500 ease-in-out hover:scale-125 dark:hidden"
-              >
-                <Image src={DarkGithub} width={50} alt="Github Logo" />
+              <Link href="https://github.com/dexpb">
+                <Image
+                  src={DarkGithub}
+                  width={50}
+                  alt="Github Logo"
+                  className="block transition duration-500 ease-in-out hover:scale-125 dark:hidden"
+                />
               </Link>
-              <Link
-                href="https://www.linkedin.com/in/pablocorreaalmeida/"
-                className="block transition duration-500 ease-in-out hover:scale-125 dark:hidden"
-              >
-                <Image src={DarkLinkedin} width={50} alt="Linkedin Logo" />
+              <Link href="https://www.linkedin.com/in/pablocorreaalmeida/">
+                <Image
+                  src={DarkLinkedin}
+                  width={50}
+                  alt="Linkedin Logo"
+                  className="block transition duration-500 ease-in-out hover:scale-125 dark:hidden"
+                />
               </Link>
             </div>
           </motion.div>

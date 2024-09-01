@@ -29,7 +29,7 @@ export function Services() {
             <h2 className="text-lg lg:text-xl font-bold text-white dark:text-white">Desenvolvimento</h2>
             <p className="text-pretty text-white dark:text-white">
               Desenvolvo sites profissionais com qualidade e beleza para que
-              você possa e sua empresa possam aparecer para o mundo.
+              você e sua empresa possam aparecer para o mundo.
             </p>
           </motion.div>
           <motion.div
@@ -39,7 +39,7 @@ export function Services() {
             viewport={{ once: true, amount: 0.7 }}
             className="flex flex-col gap-5 rounded-lg bg-emph-darker p-12"
           >
-            <TabletSmartphone size={50} />
+            <TabletSmartphone size={50} className="text-white" />
             <h2 className="text-xl font-bold text-white dark:text-white">Responsividade</h2>
             <p className="text-pretty text-white dark:text-white">
               Deixando o Design da sua página sempre responsiva para que sua
@@ -53,7 +53,7 @@ export function Services() {
             viewport={{ once: true, amount: 0.7 }}
             className="flex flex-col gap-5 rounded-lg bg-emph-darker p-12"
           >
-            <Code size={50} />
+            <Code size={50} className="text-white" />
             <h2 className="text-xl font-bold text-white dark:text-white">UI/UX</h2>
             <p className="text-pretty text-white dark:text-white">
               Posso criar o Design da sua página profissional para que seja
