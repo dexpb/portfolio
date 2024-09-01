@@ -16,7 +16,7 @@ export function Services() {
         Serviços
       </motion.h1>
 
-      <div className="flex flex-col items-center justify-center lg:flex-row ">
+      <div className="flex flex-col items-center justify-center lg:flex-row">
         <div className="flex w-[300px] flex-col gap-10 lg:m-20 lg:h-[350px] lg:w-4/6 lg:flex-row">
           <motion.div
             variants={fadeIn("down", 0.2)}
@@ -26,7 +26,7 @@ export function Services() {
             className="flex flex-col gap-5 rounded-lg bg-emph-darker p-12"
           >
             <AppWindow size={50} className="text-white"/>
-            <h2 className="text-lg lg:text-xl font-bold text-white dark:text-white">Desenvolvimento</h2>
+            <h2 className="text-lg lg:text-xl font-bold">Desenvolvimento</h2>
             <p className="text-pretty text-white dark:text-white">
               Desenvolvo sites profissionais com qualidade e beleza para que
               você possa e sua empresa possam aparecer para o mundo.
@@ -40,8 +40,8 @@ export function Services() {
             className="flex flex-col gap-5 rounded-lg bg-emph-darker p-12"
           >
             <TabletSmartphone size={50} />
-            <h2 className="text-xl font-bold text-white dark:text-white">Responsividade</h2>
-            <p className="text-pretty text-white dark:text-white">
+            <h2 className="text-xl font-bold">Responsividade</h2>
+            <p className="text-pretty">
               Deixando o Design da sua página sempre responsiva para que sua
               página fique perfeitamente adaptada a tela do seu aparelho.
             </p>
@@ -54,8 +54,8 @@ export function Services() {
             className="flex flex-col gap-5 rounded-lg bg-emph-darker p-12"
           >
             <Code size={50} />
-            <h2 className="text-xl font-bold text-white dark:text-white">UI/UX</h2>
-            <p className="text-pretty text-white dark:text-white">
+            <h2 className="text-xl font-bold">UI/UX</h2>
+            <p className="text-pretty">
               Posso criar o Design da sua página profissional para que seja
               clara, confortável, intuitiva e chamativa visualmente para o
               usuário.
