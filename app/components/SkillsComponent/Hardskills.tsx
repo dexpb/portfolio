@@ -6,6 +6,7 @@ import JavascriptLogo from "/public/Javascript.svg";
 import ReactLogo from "/public/React.svg";
 import NextjsLogo from "/public/Nextjs.svg";
 import TailwindLogo from "/public/TailwindCSS.svg";
+import TsLogo from "/public/ts.svg";
 import { motion } from "framer-motion";
 import { fadeIn } from "../Variants/Variants";
 
@@ -16,7 +17,7 @@ const skillsLogo = [
   { src: ReactLogo, name: "React" },
   { src: NextjsLogo, name: "Next.js" },
   { src: TailwindLogo, name: "Tailwind CSS" },
-
+  { src: TsLogo, name: "Typescript" },
 ];
 
 const slideIn = {
