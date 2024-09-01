@@ -9,7 +9,7 @@ import DarkLinkedin from "/public/darkmode-linkedin.svg";
 import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
 import Link from "next/link";
-import { fadeIn } from './../../Variant/Variants';
+import { fadeIn } from '../Variant/Variants';
 export default function Introduction() {
   return (
     <div className="mb-10 flex h-2/6 lg:mb-0 lg:ml-0 lg:flex-col lg:items-center lg:justify-center">

@@ -5,7 +5,7 @@ import Github from "/public/github-icon.svg";
 import JeffDesign from "/public/jeff-design.png";
 import { motion } from "framer-motion";
 import FswBarber from "/public/fsw-barber.png";
-import { fadeIn } from './../../Variant/Variants';
+import { fadeIn } from '../Variant/Variants';
 
 export function Projects() {
   return (
