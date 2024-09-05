@@ -66,16 +66,6 @@ export default function Footer() {
           </div>
         </label>
       </form>
-      <h2 className="text-4xl italic dark:text-white">Ou</h2>
-      <div>
-        <Button
-          variant="outline"
-          className="w-66 h-16 gap-2 rounded-3xl border-4 border-whatsapp text-xl font-bold text-whatsapp dark:hover:text-white"
-        >
-          Mandar Mensagem
-          <Image src={WhatsappIcon} width={30} height={0} alt="Whatsapp Logo" />
-        </Button>
-      </div>
     </div>
   );
 }
