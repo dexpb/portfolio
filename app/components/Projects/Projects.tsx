@@ -90,7 +90,7 @@ export function Projects() {
           <div className="absolute z-40 h-full w-full transition-all duration-300 group-hover:bg-black/70"></div>
           <Image
             src={TodoList}
-            alt="FSW Barber Imagem"
+            alt="Todo List"
             className="transition-all duration-500 group-hover:scale-125 group-hover:blur"
           />
           <div className="absolute -bottom-full left-12 z-50 transition-all duration-500 lg:group-hover:bottom-48 group-hover:bottom-32">
