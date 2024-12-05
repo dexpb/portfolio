@@ -5,7 +5,7 @@ import Github from "/public/github-icon.svg";
 import JeffDesign from "/public/jeff-design.png";
 import { motion } from "framer-motion";
 import FswBarber from "/public/fsw-barber.png";
-import TodoList from "/public/todo-list.png";
+import TodoListImage from "/public/todo-list.jpeg";
 import { fadeIn } from '../Variant/Variants';
 
 export function Projects() {
@@ -89,7 +89,7 @@ export function Projects() {
         <div className="group relative overflow-hidden rounded-xl border-2 border-white/50 text-white lg:w-1/3">
           <div className="absolute z-40 h-full w-full transition-all duration-300 group-hover:bg-black/70"></div>
           <Image
-            src={TodoList}
+            src={TodoListImage}
             alt="Todo List"
             className="transition-all duration-500 group-hover:scale-125 group-hover:blur"
           />
