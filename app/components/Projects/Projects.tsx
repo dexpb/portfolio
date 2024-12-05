@@ -5,7 +5,7 @@ import Github from "/public/github-icon.svg";
 import JeffDesign from "/public/jeff-design.png";
 import { motion } from "framer-motion";
 import FswBarber from "/public/fsw-barber.png";
-import TodoList from "/public/todo-list.jpg";
+import TodoList from "/public/todo-list.png";
 import { fadeIn } from '../Variant/Variants';
 
 export function Projects() {
