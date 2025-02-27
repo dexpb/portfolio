@@ -7,6 +7,7 @@ import { motion } from "framer-motion";
 import FswBarber from "/public/fsw-barber.png";
 import TodoListImage from "/public/todo-list.jpeg";
 import { fadeIn } from '../Variant/Variants';
+import PhotoTravel from "/public/photo-travel-mockup.png"
 
 export function Projects() {
   return (
@@ -30,7 +31,7 @@ export function Projects() {
             alt="JeffDesign Image"
             className="transition-all duration-500 group-hover:scale-125 group-hover:blur"
           />
-          <div className="absolute -bottom-full left-12 z-50 transition-all duration-700 group-hover:bottom-32 lg:group-hover:bottom-52">
+          <div className="absolute -bottom-full left-12 z-50 transition-all duration-700 group-hover:bottom-32 lg:group-hover:bottom-48">
             <h2 className="text-3xl font-bold">Front-end</h2>
             <p className="hidden lg:block">Landing page desenvolvida com <span>React, CSS e Framer Motion</span></p>
           </div>
@@ -59,7 +60,7 @@ export function Projects() {
           <Image
             src={FswBarber}
             alt="FSW Barber Imagem"
-            className="transition-all duration-500 group-hover:scale-125 group-hover:blur"
+            className="transition-all h-full duration-500 group-hover:scale-125 group-hover:blur"
           />
           <div className="absolute -bottom-full left-12 z-50 transition-all duration-500 lg:group-hover:bottom-48 group-hover:bottom-32">
             <h2 className="text-3xl font-bold">Front-end</h2>
@@ -91,7 +92,7 @@ export function Projects() {
           <Image
             src={TodoListImage}
             alt="Todo List"
-            className="transition-all duration-500 group-hover:scale-125 group-hover:blur"
+            className="transition-all h-full duration-500 group-hover:scale-125 group-hover:blur"
           />
           <div className="absolute -bottom-full left-12 z-50 transition-all duration-500 lg:group-hover:bottom-48 group-hover:bottom-32">
             <h2 className="text-3xl font-bold">Full Stack</h2>
@@ -111,6 +112,37 @@ export function Projects() {
 
           <div className="absolute -bottom-full left-44 z-50 transition-all duration-700 group-hover:bottom-[30px] lg:left-52 lg:group-hover:bottom-[84px]">
             <a href="https://github.com/dexpb/todolist-teste">
+              <Image src={Github} width={50} height={0} alt="Github Logo" />
+            </a>
+          </div>
+          
+        </div>
+
+        <div className="group relative overflow-hidden rounded-xl border-2 border-white/50 text-white lg:w-1/3">
+          <div className="absolute z-40 h-full w-full transition-all duration-300 group-hover:bg-black/70"></div>
+          <Image
+            src={PhotoTravel}
+            alt="Todo List"
+            className="transition-all duration-500 group-hover:scale-125 group-hover:blur"
+          />
+          <div className="absolute -bottom-full left-12 z-50 transition-all duration-500 lg:group-hover:bottom-48 group-hover:bottom-32">
+            <h2 className="text-3xl font-bold">Front-end</h2>
+            <p className="hidden lg:block">Landing page para agência de fotografias e viagens. </p>
+          </div>
+          <div className="absolute -bottom-full left-12 z-50 transition-all duration-700 group-hover:bottom-24 lg:group-hover:bottom-36">
+            <h2 className="text-lg lg:text-2xl">Photo Travel</h2>
+          </div>
+          <a href="https://photo-travel-tau.vercel.app/">
+            <Button
+              variant="outline"
+              className="absolute -bottom-full left-12 z-50 h-16 w-24 rounded-3xl font-bold text-white shadow-2xl shadow-emph-dark transition-all duration-700 group-hover:bottom-[20px] lg:h-14 lg:w-36 lg:group-hover:bottom-20"
+            >
+              Ver Projeto
+            </Button>
+          </a>
+
+          <div className="absolute -bottom-full left-44 z-50 transition-all duration-700 group-hover:bottom-[30px] lg:left-52 lg:group-hover:bottom-[84px]">
+            <a href="https://github.com/dexpb/photo-travel">
               <Image src={Github} width={50} height={0} alt="Github Logo" />
             </a>
           </div>
