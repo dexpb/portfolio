@@ -24,7 +24,7 @@ export default function Introduction() {
           <motion.div
             variants={fadeIn("right", 2)}
             initial="hidden"
-            whileInView={"show"}
+            whileInView="show"
             viewport={{ once: true, amount: 0.7 }}
           >
             <p className="mt-10 text-balance font-josefin text-2xl font-semibold text-dark-mode dark:text-white lg:text-5xl">
@@ -34,10 +34,10 @@ export default function Introduction() {
           </motion.div>
 
           <motion.div
-            variants={fadeIn("up", 3)}
+            variants={fadeIn("up", 1)}
             initial="hidden"
             whileInView="show"
-            viewport={{ once: true, amount: 0.7 }}
+            viewport={{  amount: 0.1 }}
           >
             <div className="m-10 flex flex-row justify-center gap-6 lg:mx-0 lg:justify-start lg:gap-10">
               <Link
