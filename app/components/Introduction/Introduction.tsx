@@ -9,7 +9,7 @@ import DarkLinkedin from "/public/darkmode-linkedin.svg";
 import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
 import Link from "next/link";
-import { fadeIn } from '../Variant/Variants';
+import { fadeIn } from "../Variant/Variants";
 export default function Introduction() {
   return (
     <div className="mb-10 flex h-2/6 lg:mb-0 lg:ml-0 lg:flex-col lg:items-center lg:justify-center">
@@ -37,7 +37,7 @@ export default function Introduction() {
             variants={fadeIn("up", 1)}
             initial="hidden"
             whileInView="show"
-            viewport={{  amount: 0.1 }}
+            viewport={{ amount: 0.1 }}
           >
             <div className="m-10 flex flex-row justify-center gap-6 lg:mx-0 lg:justify-start lg:gap-10">
               <Link

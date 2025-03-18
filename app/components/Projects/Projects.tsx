@@ -15,7 +15,7 @@ export function Projects() {
       variants={fadeIn("right", 0.01)}
       initial="hidden"
       whileInView={"show"}
-      viewport={{ once: true, amount: 0.7 }}
+      viewport={{ once: true}}
       id="projetos"
       className="m-10 flex h-3/5 flex-1 flex-col gap-20 lg:m-20"
     >
